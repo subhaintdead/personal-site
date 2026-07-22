@@ -38,15 +38,23 @@ content = "subh, terminal, portfolio"/>
             <a id = "b4"> </a>
             <div id="command"
             onclick="document.getElementById('txtr').focus();">
-   <label for="txtr" id="prompt">subh@terminal:~$</label>
+   <label for="txtr" id="prompt" class="sr-only">subh@terminal:~$</label>
    <input 
-   type="text" id="txtr" class="'txtr"
+   type="text" id="txtr" class="texter"
    aria-label="Type a command and press enter"
    autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
-          </div>
+          
+<div id="liner">
+    <span id="typer" aria-live="polite"></span>
+    <b class="cursor" id="cursor" aria-hidden="true"></b>
+    <div class="list"> </div>
+<div class="list"></div>
+
+</div>
+
 
 <!--    js stuff-->
- <script src = "js/script.js"></script>
+ <script src = "js/main.js"></script>
  <script src="js/theme.js"></script>
  <script src="js/cmds.js"></script>
 
