@@ -12,7 +12,10 @@ about: "about",
 email: "email",
 clear: "clear",
 exit: "exit", 
- };
+sudo: "sudo",
+"capitalist-snake": "capitalist-snake",
+};
+
 
 
  const scroll = () => {
@@ -34,3 +37,22 @@ scroll();
 
 
 
+  window.addEventListener("keydown", focus);
+
+document.addEventListener("click", focus);
+tm.addEventListener("click", focus);
+ta.addEventListener("input", scroll);
+
+
+ta.value = "";
+cmd.innerHTML = ta.value;
+
+
+ta.addEventListener("input", () => {
+cmd.innerHTML = ta.value;
+
+}
+);
+
+
+  
