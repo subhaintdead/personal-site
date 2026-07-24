@@ -1,4 +1,14 @@
+:root
+ {
+--bg: #000000e7;
+--txt: #FcFFFe
+}
+
 body {
-background-color: #000000
-color #fff
+background-color: var(--bg);
+color: var(--txt)
+}
+.card {
+ --gggg : #000
+
 }

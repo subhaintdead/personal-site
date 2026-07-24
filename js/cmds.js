@@ -17,7 +17,7 @@ yo! type  "help" for a list of supported commands.
 `<span class = 'underline'>hey, i am subh, aka seal.</span>`,
 "<br>",
 `<li>a highschooler guy, and most importantly, a seal.</li>`,
-`<li>contact: <a href = "mailto:subhgotbeans@gmail.com">subhgotbeans@gmail.com</a></li>`,
+`<li>contact: subhgotbeans@gmail.com</a></li>`,
 "<br>",
 
 
