@@ -16,8 +16,6 @@ sudo: "sudo",
 "capitalist-snake": "capitalist-snake",
 };
 
-
-
  const scroll = () => {
     if (cs) cs.scrollTop = cs.scrollHeight;
 
@@ -35,24 +33,32 @@ scroll();
     scroll(); // scroll until you reach the hell
   });
 
-
-
   window.addEventListener("keydown", focus);
 
 document.addEventListener("click", focus);
 tm.addEventListener("click", focus);
 ta.addEventListener("input", scroll);
 
-
 ta.value = "";
 cmd.innerHTML = ta.value;
 
-
 ta.addEventListener("input", () => {
 cmd.innerHTML = ta.value;
-
 }
 );
 
-
+function enterkey(e) {
+  if (e.keycode === 13) {
+    const inp = cmd.innerHTML.trim().toLowerCase();
+    addLine("[subh@terminal]~$" + cmd.innerHTML, "no-animation", 0);
+    cmds.push(cmd.innerHTML)
+    idx  = cmds.length
+    commander(inp);
+    cmd.innerHTML ="";
+    ta.value = "";
+    scroll();
   
+  }
+}
+  
+
