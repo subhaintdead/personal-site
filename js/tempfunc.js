@@ -20,18 +20,22 @@ lines.forEach(line => {
 
 }
 
-function enterKey(e) {
+function addLine(text, className, delay) {
+    const list = document.querySelector(".list");
+    if (!list) return;
 
-    if (e.key !== "Enter") return;
-    const input = ta.value.trim().toLowerCase();
-    ta.value + "";
-    cmd.innerHTML = "";
+    const render = () => {
+        const div = document.createElement("div");
+        div.innerHTML = text;
+        if (className) div.classList.add(className);
+        list.appendChild(div);
+    };
 
-   
-
-    if (input === "about")
-    {
-        printLines(about);
+    if (delay) {
+        setTimeout(render, delay);
+    } else {
+        render();
     }
-}
+};
+
 

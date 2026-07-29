@@ -43,8 +43,8 @@ ta.addEventListener("input", () => {
 cmd.innerHTML = ta.value;
 });
 
-function enterkey(e) {
-  if (e.keycode === 13) {
+function enterKey(e) {
+  if (e.key === "Enter") {
     const inp = cmd.innerHTML.trim().toLowerCase();
     addLine("[subh@terminal]~$" + cmd.innerHTML, "no-animation", 0);
     cmds.push(cmd.innerHTML)
@@ -57,14 +57,14 @@ function enterkey(e) {
 }
   
 
-if (e.keycode === 38 & idx !== 0){
+if (e.key === "ArrowUp" & idx !== 0){
 idx -= 1
 ta.value = cmds[idx];
 cmd.innerHTML = ta.value;
 scroll();
 } 
 
-if (e.keycode === 40 & idx !== cmds.length){
+if (e.key === "ArrowDown" & idx !== cmds.length){
   idx += 1 
   ta.value = cmds[idx] || "";
   cmd.innerHTML = ta.value;
