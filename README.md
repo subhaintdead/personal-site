@@ -1,3 +1,5 @@
+# EDIT: im stuck, the input doesnt work. gonna fix that later, now im too focused on the commands part.
+
 # Terminal portfolio
 
 uh this is gonna be a terminal-inspired portfolio inspired by my guy Prithvi Yewale

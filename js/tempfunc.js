@@ -27,10 +27,7 @@ function enterKey(e) {
     ta.value + "";
     cmd.innerHTML = "";
 
-    if (input === "help")
-    {
-        printLines(help);
-    }
+   
 
     if (input === "about")
     {
