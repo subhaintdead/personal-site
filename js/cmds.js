@@ -45,7 +45,7 @@ yo! type  "help" for a list of supported commands.
     `<li>clear</li>`,
     `<li>↳ clear the terminal</li>`,
     `<li>exit</li>`,
-    `<li>↳ close this terminal, and get a coffee</li>`,
+    `<li>↳ close this terminal, and get some coffee</li>`,
     `<li>sudo</li>`,
     `<li>↳ you find out</li>`,
     "</br>",

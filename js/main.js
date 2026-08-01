@@ -102,11 +102,53 @@ case "help":
       addLine("so youre not an admin huh?", 0);
       newTab(sudo);
       break;
-      case "snake":
+      case "capitalist-snake":
         runSnakeGame();
         break;
-      
+        case "quit":
+          case "exit":
+            case "logout":
+              addLine("Session terminated.", "color2", 0);
+              setTimeout(() => {
+                window.close();
+              }, 500);
+              break;
+              default:
+                addLine("command not found. type 'help' for a list of supported commands",
+                "error", 100,
+            );
+
+  } scroll();
+
+};
+
+ function newtab(link) {
+  setTimeout(function() {
+    window.open(link, "_blank");
+  }, 500);
+ }
+
+ function runSnakeGame() {
+  const width = 20,
+  height = 10;
+  let snake = [{ x: 5, y: 5}];
+  let dir = "right";
+  let score = 0;
+  let interval;
+  let gameElement;
+
+  function draw() {
+    let screen = `score: ${score}\n`;
+    for (let y=0; y<height; y++) {
+      let row = "";
+      for (let x=0; x<width; x++) {
+        if (x === food.x && y === food.y) row += "$";
+        elif (snake.some((s) => s.x === x && s.y === y)) row += "0";
+      else row += ".";      }
+    screen += row  + "\n"; 
+  }
+  
+if (!gameElement) {
+  
 
   }
-
-}
