@@ -1,4 +1,4 @@
-let b4 = document.getElementById("before")
+let b4 = document.getElementById("b4")
 const cmd = document.getElementById("typer")
 const ta = document.getElementById("texter")
 const tm = document.getElementById("terminal")
@@ -15,6 +15,7 @@ sudo: "sudo",
 "capitalist-snake": "capitalist-snake",
 };
 
+ const cs = document.getElementById("contentscroll");
  const scroll = () => {
     if (cs) cs.scrollTop = cs.scrollHeight;
 
@@ -54,10 +55,10 @@ function enterKey(e) {
     ta.value = "";
     scroll();
   }
-}
+
   
 
-if (e.key === "ArrowUp" & idx !== 0){
+if (e.key === "ArrowUp" && idx !== 0){
 idx -= 1
 ta.value = cmds[idx];
 cmd.innerHTML = ta.value;
@@ -70,6 +71,7 @@ if (e.key === "ArrowDown" & idx !== cmds.length){
   cmd.innerHTML = ta.value;
   scroll();
 
+} 
 }
 
 function commander(c) {
@@ -100,7 +102,7 @@ case "help":
 
     case "sudo":
       addLine("so youre not an admin huh?", 0);
-      newTab(sudo);
+      newtab(sudo);
       break;
       case "capitalist-snake":
         runSnakeGame();
@@ -128,27 +130,3 @@ case "help":
   }, 500);
  }
 
- function runSnakeGame() {
-  const width = 20,
-  height = 10;
-  let snake = [{ x: 5, y: 5}];
-  let dir = "right";
-  let score = 0;
-  let interval;
-  let gameElement;
-
-  function draw() {
-    let screen = `score: ${score}\n`;
-    for (let y=0; y<height; y++) {
-      let row = "";
-      for (let x=0; x<width; x++) {
-        if (x === food.x && y === food.y) row += "$";
-        elif (snake.some((s) => s.x === x && s.y === y)) row += "0";
-      else row += ".";      }
-    screen += row  + "\n"; 
-  }
-  
-if (!gameElement) {
-  
-
-  }
