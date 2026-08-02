@@ -79,6 +79,9 @@ switch (c) {
 case "help":
   loopLines(help, 80);
   break;
+  case "about":
+    loopLines(about, 80);
+  break;
   case "email":
     addLine('<a href="mailto:subhgotbeans@gmail.com">subhgotbeans@gmail.com</a>');
     break;
