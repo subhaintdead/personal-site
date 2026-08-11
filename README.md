@@ -5,11 +5,17 @@ uh this is gonna be a terminal-inspired portfolio inspired by my guy Prithvi Yew
 
 ## the features are:
 **a black terminal** (still working on it)
+
 **interactive commands**, like:
+
 help (shows the available commands)
+
 about (about me, seal)
+
 email (my email)
+
 capitalist-snake (a game about a snake who prefers $ more than a rat)
+
 sudo (superuser do!)
 
 # how to use
