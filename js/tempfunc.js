@@ -27,7 +27,7 @@ function addLine(text, style, delay) {
     const render = () => {
         const div = document.createElement("div");
         div.innerHTML = text;
-        if (className) div.classList.add(className);
+        if (style) div.classList.add(style);
         list.appendChild(div);
     };
 
