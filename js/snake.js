@@ -1,27 +1,4 @@
- function runSnakeGame() {
-      const width = 20,
-        height = 10;
-          let snake = [{ x: 5, y: 5}];
-            let dir = "right";
-              let score = 0;
-                let interval;
-                  let gameElement;
-
-                    function draw() {
-                        let screen = `score: ${score}\n`;
-                   for (let y=0; y<height; y++) {
-                            let row = "";
-                    for (let x=0; x<width; x++) {
-                       if (x === food.x && y === food.y) row += "$";
-                              else if (snake.some((s) => s.x === x && s.y === y)) row += "0";
-                                 else row += ".";      }
-                               screen += row  + "\n"; 
-                                }
-                                  
-                                  if (!gameElement) {
-                                      
-
-                                  } function runSnakeGame() {
+function runSnakeGame() {
   const width = 20,
   height = 10;
   let snake = [{ x: 5, y: 5}];
@@ -87,7 +64,7 @@
           if (head.x === food.x && head.y === food.y)
           {score++;
             food = { x: Math.floor(Math.random() * width), 
-              y: Math.floor(math.random() * height),
+              y: Math.floor(Math.random() * height),
             } 
   } else { snake.pop()}
 
@@ -126,6 +103,6 @@
       interval = setInterval(move, 250);
 
    }
-                    }}
+                  
                     
 
