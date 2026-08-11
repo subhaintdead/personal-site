@@ -6,7 +6,9 @@ function runSnakeGame() {
   let score = 0;
   let interval;
   let gameElement;
-
+  let food = {x: Math.floor(Math.random() * width), 
+    y: Math.floor(Math.random() * height),
+  }
   function draw() {
     let screen = `score: ${score}\n`;
     for (let y=0; y<height; y++) {
