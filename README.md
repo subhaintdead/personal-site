@@ -13,5 +13,4 @@ and a snake game(bonus!)
 
  and uh tbh i am still kinda confused but as of now ive done the blank page on html so far (designing the interface sucks all the time, im no frontend wizard)
 
-# dependencies
-commander: 11.0.0
+
