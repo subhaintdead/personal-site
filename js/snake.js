@@ -88,7 +88,7 @@ function runSnakeGame() {
                 if (dir !== "left") dir = "right";
                 break;
 
-                case "escape":
+                case "Escape":
                   clearInterval(interval);
                   window.removeEventListener("keydown", keyhandler);
                   gameElement.innerHTML += "\ngame exited."
