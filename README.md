@@ -20,11 +20,19 @@ sudo (superuser do!)
 
 # how to use
  just open it on browser
+ 
 type 'help' for a variety of commands
+
 and thats it!!
 
 
+## dependencies
+none!
 
+## how to run locally
+
+git clone the repo
+and open index.html
  
  
 
