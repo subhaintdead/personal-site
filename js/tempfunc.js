@@ -20,7 +20,7 @@ lines.forEach(line => {
 
 }
 
-function addLine(text, className, delay) {
+function addLine(text, style, delay) {
     const list = document.querySelector(".list");
     if (!list) return;
 
