@@ -30,12 +30,18 @@ and thats it!!
 none!
 
 ## how to run locally
+copy the commands and paste into terminal:
 
-git clone the repo
-and open index.html
+```bash
+git clone https://github.com/subhaintdead/personal-site.git
+cd personal-site
+npx http-server -p 8000
+```
+ and open the dna0008
+
  
- 
 
- ps its still got some css left, which im gonna do later
+ **ps its still got some css left, which im gonna do later**
+ll
 
-
+blll0008
