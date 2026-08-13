@@ -41,7 +41,7 @@ npx http-server -p 8000
 ```
  and open it on port 8000
 
-(you may need to download http-server by clicking yes if you haven't yet)
+(you may need to download http-server by typing in "y" if you haven't yet)
 
 
 
