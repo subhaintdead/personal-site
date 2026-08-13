@@ -37,11 +37,14 @@ git clone https://github.com/subhaintdead/personal-site.git
 cd personal-site
 npx http-server -p 8000
 ```
- and open the dna0008
+ and open it on port 8000
+
+(you may need to download http-server by clicking yes if you haven't yet)
+
+
+
+
 
  
 
  **ps its still got some css left, which im gonna do later**
-ll
-
-blll0008
