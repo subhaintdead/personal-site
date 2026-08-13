@@ -19,7 +19,9 @@ capitalist-snake (a game about a snake who prefers $ more than a rat)
 sudo (superuser do!)
 
 # how to use
- just open it on browser
+ just open it on browser:
+
+ https://subhaintdead.github.io/personal-site/
  
 type 'help' for a variety of commands
 
