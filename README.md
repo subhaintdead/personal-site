@@ -14,7 +14,7 @@ about (about me, seal)
 
 email (my email)
 
-capitalist-snake (a game about a snake who prefers $ more than a rat)
+capitalist-snake (a game about a snake who prefers $ more than fruits, real snakes dont eat apples anyway) 
 
 sudo (superuser do!)
 
