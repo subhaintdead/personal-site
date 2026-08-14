@@ -9,3 +9,7 @@ body {
 background-color: var(--bg);
 color: var(--txt)
 }
+
+.ascii-art {
+    font-family: "Courier New", Courier, monospace;
+}
