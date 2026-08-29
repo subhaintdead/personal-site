@@ -1,7 +1,8 @@
 :root
  {
+--prim: #e0e0e0;
 --bg: #0a0a0a;
---txt: #FcFFFe
+--txt: #fcfffe;
 }
 
 body {
@@ -12,4 +13,14 @@ color: var(--txt)
 
 .ascii-hero {
     font-family: "Courier New", Courier, monospace;
+}
+
+.terminal-window {
+border: 1px solid var(--prim);
+background-color: var(--bg);
+border-radius: 5px;
+width: 100%;
+height:100%;
+min-height: 98vh;
+max-height: 105vh
 }
