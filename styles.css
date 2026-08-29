@@ -8,7 +8,14 @@
 body {
     font-family: 'Inconsolata', monospace;
 background-color: var(--bg);
-color: var(--txt)
+color: var(--txt);
+background-attachment: scroll;
+background-size:cover;
+text-size-adjust: auto;
+-webkit-text-size-adjust: auto;
+overflow:hidden;
+padding:0;
+margin:0
 }
 
 .ascii-hero {
@@ -23,4 +30,21 @@ width: 100%;
 height:100%;
 min-height: 98vh;
 max-height: 105vh
+}
+
+.centered {
+    position:absolute;
+    left: 50%;
+    transform: translate();
+
+}
+
+
+#contentscroll {
+    scrollbar-width: none; /*firefox prolly, idk code assist says this, lemme verify*/
+    -ms-overflow-style: none; /* here comes microslop*/
+    overflow-y: scroll;
+    flex: 1;
+    min-height:0;
+
 }
