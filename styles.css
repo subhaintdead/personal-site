@@ -44,7 +44,7 @@ max-height: 105vh;
 #contentscroll {
     scrollbar-width: none; /*firefox prolly, idk code assist says this, lemme check*/
     -ms-overflow-style: none; /* here comes microslop*/
-    overflow-y: scroll;
+    overflow-y: auto;
     flex: 1;
     min-height:0;
 
@@ -71,13 +71,59 @@ pointer-events: none;
 
 #liner {
     line-height: normal;
-    animation: show 0.5s ease forwards;
+    animation: show 500ms ease forwards;
     opacity: 0;
-    animation-delay: 1.5s; 
+    animation-delay: 350ms; 
 }
 
 
 #liner::before {
     content: "subh@terminal~$";
+}
+
+.cursor {
+    color: var(--sec);
+    background-color: var(--sec);
+    font-size: 12px;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    overflow: hidden;
+    transform: translateY(4px);
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+    
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.command {
+    color: var(--sec);
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    pointer-events: none;
 }
 
