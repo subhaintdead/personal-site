@@ -21,9 +21,11 @@ margin:0
 
 .ascii-hero {
     font-family: "Courier New", Courier, monospace;
+    
 }
 
 .terminal-window {
+    position: relative;
 border: 1px solid var(--prim);
 background-color: var(--bg);
 border-radius: 5px;
@@ -36,6 +38,7 @@ flex-direction: column;
 }
 
 .centered {
+    
     position:absolute;
     left: 50%;
    transform:translateX(-50%);
