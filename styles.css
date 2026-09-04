@@ -38,7 +38,7 @@ flex-direction: column;
 }
 
 .centered {
-    
+   
     position:absolute;
     left: 50%;
    transform:translateX(-50%);
@@ -52,6 +52,8 @@ flex-direction: column;
     overflow-y: auto;
     flex: 1;
     min-height:0;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
 
 }
 
