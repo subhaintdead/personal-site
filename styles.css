@@ -86,7 +86,7 @@ pointer-events: none;
 
 
 #liner::before {
-    content: "subh@terminal~$";
+    content: "subh@terminal:~$";
 }
 
 .cursor {
