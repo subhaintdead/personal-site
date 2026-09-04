@@ -82,12 +82,14 @@ pointer-events: none;
     animation: show 500ms ease forwards;
     opacity: 0;
     animation-delay: 350ms; 
+    
 }
 
 
 #liner::before {
     content: "subh@terminal~$";
 }
+
 
 .cursor {
     color: var(--sec);
