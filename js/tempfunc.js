@@ -20,6 +20,23 @@ lines.forEach(line => {
 
 }
 
+function addLine (text, style, delay) {
+    const before = document.getElementById("b4");
+    if (!before) return;
+
+    const render = () => {
+        const p = document.createElement("p");
+        p.innerHTML = text;
+        if (style) p.classList.add(style);
+        before.parentNode.insertBefore(p, before);
+    };
+    if (delay) {
+        setTimeout(render, delay);
+    } else {
+        render();  // hopefully now this thing works, im so dead
+    }
+
+}
 
 
 

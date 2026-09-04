@@ -47,7 +47,7 @@ cmd.innerHTML = ta.value;
 function enterKey(e) {
   if (e.key === "Enter") {
     const inp = cmd.innerHTML.trim().toLowerCase();
-    addLine("[subh@terminal]~$" + cmd.innerHTML, "no-animation", 0);
+    addLine("subh@terminal~$ " + cmd.innerHTML, "no-animation", 0);
     cmds.push(cmd.innerHTML)
     idx  = cmds.length
     commander(inp);
