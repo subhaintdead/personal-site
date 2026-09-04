@@ -55,6 +55,9 @@ flex-direction: column;
 
 }
 
+#contentscroll::-webkit-scrollbar {
+    display: none;  /* ah yes chrome and safari the OGs*/ 
+}
 
 
 #command {

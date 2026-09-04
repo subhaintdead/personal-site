@@ -20,23 +20,6 @@ lines.forEach(line => {
 
 }
 
-function addLine(text, style, delay) {
-    const list = document.querySelector(".list");
-    if (!list) return;
-
-    const render = () => {
-        const div = document.createElement("div");
-        div.innerHTML = text;
-        if (style) div.classList.add(style);
-        list.appendChild(div);
-    };
-
-    if (delay) {
-        setTimeout(render, delay);
-    } else {
-        render();
-    }
-};
 
 
 
