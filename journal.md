@@ -1,3 +1,8 @@
+well by the time i started journalling the project was almost done. anyways, here's the little i journalled(i suck at this)<br>
+
+
+
+
 ![](https://cdn.hackclub.com/01a04443-5ba8-7200-a737-8a2481b5367c/journal-1787851659754.png)
 ![](https://cdn.hackclub.com/01a04443-79ee-7408-bf06-bd327111632c/journal-1787851667601.png)
 So yeah the only thing i would say in the journal as of now 
@@ -15,7 +20,7 @@ css still left.
 
 did like most of the css work. 
 ah well i cant really speak everything from the start(dont deflate, pls see the github commits, theyre all there)
-basically i started this project originally aiming for macondo but uh im probably gonna submit it here
+basically i started this project originally aiming for macondo but uh im probably gonna submit it on live
 
 
 
