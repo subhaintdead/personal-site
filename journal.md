@@ -23,4 +23,11 @@ ah well i cant really speak everything from the start(dont deflate, pls see the 
 basically i started this project originally aiming for macondo but uh im probably gonna submit it on live
 
 
+<br>
+<br>
+<br>
+gng i think i might add some vm too that one can spin up(cool idea)
 
+<br>
+<br>
+working on it
