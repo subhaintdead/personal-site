@@ -30,7 +30,17 @@ gng i think i might add some vm too that one can spin up(cool idea)
 
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 working on it
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 yey now its got the terminal too! (thank yall gng who give out free vms)
