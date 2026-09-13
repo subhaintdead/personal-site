@@ -14,9 +14,11 @@ about (about me, seal)
 
 email (my email)
 
-capitalist-snake (a game about a snake who prefers $ more than fruits, real snakes dont eat apples anyway) 
+capitalist-snake (a game about a snake who stacks "capital" for his next hibernation to pay for his groceries, real snakes dont eat apples anyway) 
 
 sudo (superuser do!)
+
+terminal (spin up a true terminal, thank you h2.nexus for free stuff)
 
 # how to use
  just open it on browser:
