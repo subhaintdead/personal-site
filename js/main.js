@@ -2,6 +2,7 @@ let b4 = document.getElementById("b4")
 const cmd = document.getElementById("typer")
 const ta = document.getElementById("texter")
 const tm = document.getElementById("terminal")
+let pendingTrue = null;
 
 let idx = 0;
 const cmds = [];
@@ -13,6 +14,7 @@ clear: "clear",
 exit: "exit", 
 sudo: "sudo",
 "capitalist-snake": "capitalist-snake",
+terminal: "terminal",
 };
 
  const cs = document.getElementById("contentscroll");
@@ -65,7 +67,7 @@ cmd.innerHTML = ta.value;
 scroll();
 } 
 
-if (e.key === "ArrowDown" & idx !== cmds.length){
+if (e.key === "ArrowDown" && idx !== cmds.length){
   idx += 1 
   ta.value = cmds[idx] || "";
   cmd.innerHTML = ta.value;
@@ -75,7 +77,10 @@ if (e.key === "ArrowDown" & idx !== cmds.length){
 }
 
 function commander(c) {
+
+
 switch (c) {
+
 case "help":
   loopLines(help, 80);
   break;
@@ -107,6 +112,34 @@ case "help":
       addLine("so youre not an admin huh?", 0);
       newtab(sudo);
       break;
+
+    case "terminal":
+      addLine("you'll get redirected to a page, where you can get a free terminal for 15 minutes. in that page, click 'Linux(Terminal)' to spin up a vm. continue? [y/N]", 0);
+      window.pendingTrue = true;
+      break;
+
+case "y":
+  if (window.pendingTrue){
+window.pendingTrue = false;
+ newtab(terminalLaunch)
+  }
+  else {
+    addLine("invalid prompt value. type 'help' for a list of supported commands", "error", 100);
+  }
+   break;
+
+case "n":
+  if (window.pendingTrue) {
+    window.pendingTrue = false;
+    addLine("cancelled by user.", "color2", 0)
+
+  }else {
+    addLine("invalid prompt value. type 'help' fpr a list of supported commands", "error", 100);
+
+  }
+  break;
+
+
       case "capitalist-snake":
         runSnakeGame();
         break;
