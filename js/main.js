@@ -114,7 +114,7 @@ case "help":
       break;
 
     case "terminal":
-      addLine("you'll get redirected to a page, where you can get a free terminal for 15 minutes. in that page, click 'Linux(Terminal)' to spin up a vm. continue? [y/N]", 0);
+      addLine("you'll get redirected to a page, where you can get a free terminal for 15 minutes. in that page, click 'Linux (Terminal)' to spin up a vm. Continue? [y/N]", 0);
       window.pendingTrue = true;
       break;
 

@@ -23,7 +23,7 @@ terminal (spin up a true terminal, thank you h2.nexus for free stuff)
 # how to use
  just open it on browser:
 
- https://subhaintdead.github.io/personal-site/
+ https://personal-site-beta-ruddy.vercel.app/
  
 type 'help' for a variety of commands
 

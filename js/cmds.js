@@ -1,5 +1,5 @@
 var sudo = "https://youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1";
-var terminalLaunch= "https://subhaintdead.github.io/personal-site/true-terminal";
+var terminalLaunch= "https://personal-site-beta-ruddy.vercel.app/true-terminal";
 
 const github = "https://github.com";
  const banner = [
@@ -49,7 +49,7 @@ yo! type  "help" for a list of supported commands.
     `<li>sudo</li>`,
     `<li>↳ you find out</li>`,
     `<li>terminal</li>`,
-    `<li>↳spin up a free linux terminal that lasts for 15 minutes.`,
+    `<li>↳ spin up a free linux terminal that lasts for 15 minutes.`,
     "</br>",
  ];
 
