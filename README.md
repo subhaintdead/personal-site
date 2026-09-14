@@ -4,7 +4,7 @@
 uh this is gonna be a terminal-inspired portfolio inspired by my guy Prithvi Yewale
 
 ## the features are:
-**a black terminal** (still working on it)
+**a black terminal**
 
 **interactive commands**, like:
 
